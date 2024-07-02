@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p id="navName">Saad Ali</p>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact Me</h1>
+      <hr>
+      <p>Enter Your Details in following form for Contact.</p>
+      <article id="contact">
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Contact Info</legend>
+            <p>
+              <label for="name">Name: </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="useremail">Email:</label>
+              <input type="email" name="useremail" id="useremail" required />
+            </p>
+            <p>
+              <label for="message">Enter Message:</label><br />
+              <textarea
+                name="message"
+                id="message"
+                rows="7"
+                cols="25"
+                placeholder="Write your query..."
+              ></textarea>
+            </p>
+            <p>
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </p>
+          </fieldset>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>

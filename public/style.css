@@ -1,0 +1,53 @@
+body{
+    background-color: #333;
+}
+main{
+    color: whitesmoke;
+}
+#intro{
+    text-align: center;
+}
+nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items to opposite ends */
+    align-items: center; /* Align items vertically centered */
+    padding: 10px; /*Add padding for spacing*/
+    background-color: whitesmoke; /* Optional: Background color for nav */
+}
+
+nav p {
+    margin: 0; /* Remove margin */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for the list items */
+}
+
+nav ul li {
+    margin-left: 10px; /* Adjust spacing between list items */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* No margin for the first li element */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+}
+#navName{
+    font-size: 18px;
+}
+a {
+    color: burlywood;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(245, 138, 138);
+}
+footer{
+    text-align: center;
+}

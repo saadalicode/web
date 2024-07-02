@@ -1,0 +1,31 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    text-align: center;
+    background-color: #333;
+    color: whitesmoke;
+}
+/* nav{
+    
+} */
+
+a{
+    color: rgb(117, 177, 179);
+    text-decoration: none;
+}
+
+a:visited{
+    color: cornflowerblue;
+}
+
+a:active, a:hover{
+    color:aliceblue;
+}
+
+table, th, tr, td, caption{
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
